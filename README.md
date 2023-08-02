@@ -7,10 +7,12 @@
 
 1. Open with GitHub Desktop
    - 安裝桌面
-    ![Alt text](image.png)
+   ![Alt text][def]
 
 2. Install Git
    - 依畫面指示操作安裝
 
 3. 開啟目錄檔案
    - 編輯此檔
+
+[def]: image.png
