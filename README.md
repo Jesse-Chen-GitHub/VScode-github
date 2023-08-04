@@ -7,6 +7,7 @@
 
 1. Open with GitHub Desktop
    - 安裝桌面
+   
    ![Alt text][def]
 
 2. Install Git
@@ -15,4 +16,4 @@
 3. 開啟目錄檔案
    - 編輯此檔
 
-[def]: image.png
+   [def]: image.png
