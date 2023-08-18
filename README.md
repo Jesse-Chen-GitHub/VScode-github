@@ -16,4 +16,4 @@
 3. 開啟目錄檔案
    - 編輯此檔
 
-   [def]: image.png
+   [def]: ./images/image.png
