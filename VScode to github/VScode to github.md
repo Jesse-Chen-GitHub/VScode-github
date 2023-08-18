@@ -1,6 +1,6 @@
 ## 在 Github 上新增 repository
 
-![Alt text](.\images/image-1.png)
+![Alt text](./images/image-1.png)
 
 ## 安裝 Git
 依畫面操作指示

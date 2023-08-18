@@ -31,7 +31,7 @@
    - 如在開啟的專案中，選擇「Python: Create Terminal」會進入venv 狀態
    - 在 Terminal 處輸入 `deactivate` 可停用虛擬環境
 
-    ![Alt text](.\images/image.png)
+    ![Alt text](./images/image.png)
 
 2. 在 Terminal 輸入以下指令，在虛擬環境安裝 pandas 和  plotly：
         `pip install pandas plotly`
