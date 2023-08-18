@@ -25,7 +25,7 @@
 
 ### 1. 建立虛擬環境與安裝 Library
 
-- 參考網站：<https://pythonviz.com/basic/visual-studio-code-virtual-environment-setup/>
+   - 參考網站：<https://pythonviz.com/basic/visual-studio-code-virtual-environment-setup/>
 
 1. 我們首先開啟 VS Code，並按一下 Cmd + Shift + P 開啟 Command Palette。輸入「terminal」，並選取「Python: Create Terminal」的選項。
    - 如在開啟的專案中，選擇「Python: Create Terminal」會進入venv 狀態
