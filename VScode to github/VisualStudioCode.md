@@ -35,13 +35,17 @@
     ![Alt text](./images/image.png)
 
 2. 在 Terminal 輸入以下指令，在虛擬環境安裝 pandas 和  plotly：
+        
         `pip install pandas plotly`
+
 3. 這指令讓我們可以列舉全部在這個虛擬環境下已經安裝的 Python libraries
+       
        `pip freeze`
 
 ### 2. 重置或移除虛擬環境
 
 1. 其實我們只要直接移除虛擬環境的檔案夾（例如 .venv）便可以。我們在 Python Terminal 輸入以下指令：
+        
         `rm -rf .venv`
 
 ### 3. 版面介紹、管理 Python 專案和多個 .py
@@ -49,6 +53,7 @@
 - 參考網站：<https://pythonviz.com/basic/visual-studio-code-introduction-manage-python-script/>
 
 1. 在 Python Terminal 運行 main.py
+        
         `python main.py`
 
 2. 我們先把 script1.py 的第 5 至 6 行改成以下的代碼
@@ -72,6 +77,7 @@
   - <https://pythonviz.com/basic/pip-installer-visual-studio-code-usage/>
 
 1. 在 VS Code 的 Python Terminal，使用 pip 安裝新 library 的語法是：
+    
     `pip install [library1] [library2] [library3]...`
 
 2. 安裝的 Library 與 Dependencies
@@ -147,7 +153,8 @@
 ### 草稿
 5. VSCode 5/5: Jupyter Notebook 互動編程？實在太方便了
 
-- 參考網站：<https://pythonviz.com/colab-jupyter/visual-studio-code-jupyter-notebook-integration/>
+   - 參考網站：
+     - <https://pythonviz.com/colab-jupyter/visual-studio-code-jupyter-notebook-integration/>
 
-1. VS Code 的 Jupyter Notebook 比較進階。如果您從未接觸過 Jupyter Notebook 或 Python，可以考慮先跟從免安裝的 Google Colab Notebook（也是 Jupyter Notebook 的化身）的以下教學，學會 Python 基本技能。
-        Google Colab Notebook:<https://colab.research.google.com/>
+6. VS Code 的 Jupyter Notebook 比較進階。如果您從未接觸過 Jupyter Notebook 或 Python，可以考慮先跟從免安裝的 Google Colab Notebook（也是 Jupyter Notebook 的化身）的以下教學，學會 Python 基本技能。
+        Google Colab Notebook: <https://colab.research.google.com/>
