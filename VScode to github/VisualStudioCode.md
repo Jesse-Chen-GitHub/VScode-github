@@ -156,7 +156,7 @@
 ### 草稿
 5. VSCode 5/5: Jupyter Notebook 互動編程？實在太方便了
 
-   - 參考網站：<https://pythonviz.com/colab-jupyter/visual-studio-code-jupyter-notebook-integration/>
+- 參考網站：<https://pythonviz.com/colab-jupyter/visual-studio-code-jupyter-notebook-integration/>
 
 6. VS Code 的 Jupyter Notebook 比較進階。如果您從未接觸過 Jupyter Notebook 或 Python，可以考慮先跟從免安裝的 Google Colab Notebook（也是 Jupyter Notebook 的化身）的以下教學，學會 Python 基本技能。
         Google Colab Notebook: <https://colab.research.google.com/>
