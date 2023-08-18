@@ -38,7 +38,7 @@
       core.pager = less
       ```
    - 您可以使用 git config --get 指令來取得特定設定的值。例如，要取得使用者的名稱，您可以使用以下命令：
-      `git config --get user.name`
+   `git config --get user.name`
 
    - git config --get 指令的輸出類似以下：
       `John Doe`
