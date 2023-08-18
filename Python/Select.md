@@ -1,5 +1,7 @@
 
 ## Select
+紀錄 `select` 使用方法
+
 ### 方法 1
 說明此方法
     `read_socks, write_socks, err_socks = select.select([s], [], [], 1)`
