@@ -25,8 +25,7 @@
 
 ### 1. 建立虛擬環境與安裝 Library
 
-- 參考網站：
-  - <https://pythonviz.com/basic/visual-studio-code-virtual-environment-setup/>
+- 參考網站：<https://pythonviz.com/basic/visual-studio-code-virtual-environment-setup/>
 
 1. 我們首先開啟 VS Code，並按一下 Cmd + Shift + P 開啟 Command Palette。輸入「terminal」，並選取「Python: Create Terminal」的選項。
    - 如在開啟的專案中，選擇「Python: Create Terminal」會進入venv 狀態
@@ -35,13 +34,17 @@
     ![Alt text](./images/image.png)
 
 2. 在 Terminal 輸入以下指令，在虛擬環境安裝 pandas 和  plotly：
+        
         `pip install pandas plotly`
+
 3. 這指令讓我們可以列舉全部在這個虛擬環境下已經安裝的 Python libraries
+       
        `pip freeze`
 
 ### 2. 重置或移除虛擬環境
 
 1. 其實我們只要直接移除虛擬環境的檔案夾（例如 .venv）便可以。我們在 Python Terminal 輸入以下指令：
+        
         `rm -rf .venv`
 
 ### 3. 版面介紹、管理 Python 專案和多個 .py
@@ -49,6 +52,7 @@
 - 參考網站：<https://pythonviz.com/basic/visual-studio-code-introduction-manage-python-script/>
 
 1. 在 Python Terminal 運行 main.py
+        
         `python main.py`
 
 2. 我們先把 script1.py 的第 5 至 6 行改成以下的代碼
@@ -68,10 +72,10 @@
 
 ### 4. 讓 pip 安裝和管理 Python Libraries，結合虛擬環境
 
-- 參考網站：
-  - <https://pythonviz.com/basic/pip-installer-visual-studio-code-usage/>
+- 參考網站：<https://pythonviz.com/basic/pip-installer-visual-studio-code-usage/>
 
 1. 在 VS Code 的 Python Terminal，使用 pip 安裝新 library 的語法是：
+    
     `pip install [library1] [library2] [library3]...`
 
 2. 安裝的 Library 與 Dependencies
@@ -85,9 +89,11 @@
 3. pip 功能 2：freeze、匯入和輸出 library 列表
     使用 pip freeze 輸出 requirements.txt
     我們可以在 Python Terminal 輸入以下指令，獲取在這個虛擬環境已經安裝的 Python library：
+     
      `pip freeze`
 
 4. 我們會使用到以下的代碼，在 root directory （即「vscode-example」）生成一個「requirements.txt」的檔案：
+     
      `pip freeze > requirements.txt`
 
     我們可以見到 requirements.txt 把 pip freeze 的回傳儲存在一個 .txt 的檔案裡。這個 requirements.txt 是一個十分重要的 Python 專案組件，用於
@@ -100,12 +106,14 @@
 
 5. 使用 pip install 匯入 requirements.txt
     可以使用以下指令，從 requirements.txt 還原我們的 Python libraries 安裝：
+     
      `pip install -r requirements.txt`
 
 6. pip 功能 3：更新已安裝的 library
     **因為更新後的 library 可能出現兼容問題，進行以下操作前，請先使用上面提及的方法使用 requirements.txt 備份虛擬環境的資料。**
 
     如果我們只想更新一個 library，那麼語法十分簡單：
+    
     `pip install --upgrade [package]`
 
     留意當我們更新一個 Library 的時候，其實會同時把它的 dependencies 也更新至 Library 最新版的要求。
@@ -125,6 +133,7 @@
 7. pip 功能 4：刪除現有安裝的 Python Library
     如果我們認為一個現有、已安裝的 Python Library 沒有用途，如何從我們的虛擬環境移除？
     移除的方法很簡單，我們只需要
+    
     `pip uninstall [library1] [library2] ...`
 
     首先我們必須澄清：這個方法未必是最佳方案（best practice）。由於我們移除單一的 Python library 不會同時移除它的 dependencies，因此如果我們的目的是清理虛擬環境，這個方法並不奏效。
@@ -147,7 +156,7 @@
 ### 草稿
 5. VSCode 5/5: Jupyter Notebook 互動編程？實在太方便了
 
-- 參考網站：<https://pythonviz.com/colab-jupyter/visual-studio-code-jupyter-notebook-integration/>
+   - 參考網站：<https://pythonviz.com/colab-jupyter/visual-studio-code-jupyter-notebook-integration/>
 
-1. VS Code 的 Jupyter Notebook 比較進階。如果您從未接觸過 Jupyter Notebook 或 Python，可以考慮先跟從免安裝的 Google Colab Notebook（也是 Jupyter Notebook 的化身）的以下教學，學會 Python 基本技能。
-        Google Colab Notebook:<https://colab.research.google.com/>
+6. VS Code 的 Jupyter Notebook 比較進階。如果您從未接觸過 Jupyter Notebook 或 Python，可以考慮先跟從免安裝的 Google Colab Notebook（也是 Jupyter Notebook 的化身）的以下教學，學會 Python 基本技能。
+        Google Colab Notebook: <https://colab.research.google.com/>
