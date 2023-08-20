@@ -19,6 +19,7 @@
 # 在本地 (本機) 使用 Git 版本控管工具
 
 1. 在你要下載的 repository 會找到一個網址，確定是 HTTPS 不是 SSH 後，按旁邊的剪貼簿將網址複製起來。
+   
    ![Alt text](./.images/image-3.png)
 
 2. 將 terminal 或 Git Bash 打開，進入要下載的位置：
@@ -34,7 +35,7 @@
 4. 用 VS Code 開啟資料夾
    可以看到完整的將網路上的專案複製下來了
 
-   - 參考資料 https://jimmylab.wordpress.com/gp1015/git-github/vscode-github/
+   - 參考資料：https://jimmylab.wordpress.com/gp1015/git-github/vscode-github/
 
 
 
