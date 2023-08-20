@@ -28,9 +28,9 @@
 
 3. 在 clone 下來的資料夾內輸入使用者資料：
 
-   `git config user.name "user-ID"`
-   
-   `git config user.email "user-email"`
+   `git config user.name user-ID`
+
+   `git config user.email user-email`
 
 
 4. 用 VS Code 開啟資料夾
