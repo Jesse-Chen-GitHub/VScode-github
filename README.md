@@ -18,6 +18,26 @@
 
 # 在本地 (本機) 使用 Git 版本控管工具
 
+1. 在你要下載的 repository 會找到一個網址，確定是 HTTPS 不是 SSH 後，按旁邊的剪貼簿將網址複製起來。
+   ![Alt text](./.images/image-3.png)
+
+2. 將 terminal 或 Git Bash 打開，進入要下載的位置：
+
+   `git clone 貼上剛複製的網址`
+
+3. 在 clone 下來的資料夾內輸入使用者資料：
+
+   `git config user.name "user-ID"`
+   `git config user.email "user-email"`
+
+
+4. 用 VS Code 開啟資料夾
+   可以看到完整的將網路上的專案複製下來了
+
+   - 參考資料 https://jimmylab.wordpress.com/gp1015/git-github/vscode-github/
+
+
+
 ## 常用指令
    - 取得 Git 指令列工具版本
       
