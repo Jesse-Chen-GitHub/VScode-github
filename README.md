@@ -36,8 +36,7 @@
 4. 用 VS Code 開啟資料夾
    可以看到完整的將網路上的專案複製下來了
 
-   - 參考資料：[VS Code 與 Github 同步](https://jimmylab.wordpress.com/gp1015/git-github/vscode-github/)
-
+   - 參考資料：[VS Code 與 Github 同步](https://jimmylab.wordpress.com/gp1015/git-github/vscode-github/){:target="_blank"}
 
 
 ## 常用指令
