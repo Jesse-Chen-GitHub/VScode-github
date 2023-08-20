@@ -67,19 +67,19 @@
 
    - git config --get 指令的輸出類似以下：
       
-      `John Doe`
+      `Jesse Chen`
 
-   - 您也可以使用 git config --set 指令來設定新的設定或修改現有的設定。例如，要設定使用者的名稱為「Jane Doe」，您可以使用以下命令：
+   - 您也可以使用 git config --set 指令來設定新的設定或修改現有的設定。例如，要設定使用者的名稱為「New User」，您可以使用以下命令：
       
-      `git config --set user.name Jane Doe`
+      `git config --set user.name Jesse Chen`
 
    - git config --set 指令的輸出類似以下：
       
-      `user.name = Jane Doe`
+      `user.name = Jesse Chen`
 
 
 ## 如何清除 gui.recentrepo
-例如：要清除 gui.recentrepo=C:/Users/chen/z_Notes/z_MD 變數，並保留其他 gui.recentrepo 變數，您可以使用以下步驟：
+例如：要清除 `gui.recentrepo=C:/Users/chen/z_Notes/z_MD` 變數，並保留其他 `gui.recentrepo` 變數，您可以使用以下步驟：
 
 1. 開啟終端機。
 2. 輸入以下命令：
@@ -88,4 +88,4 @@
    
 3. 按下 Enter 鍵。
    
-   此命令將清除 gui.recentrepo=C:/Users/chen/z_Notes/z_MD 變數，並在下次啟動 Git 時只會列出其他最近使用的倉庫。
+   此命令將清除 `gui.recentrepo=C:/Users/chen/z_Notes/z_MD` 變數，並在下次啟動 Git 時只會列出其他最近使用的倉庫。

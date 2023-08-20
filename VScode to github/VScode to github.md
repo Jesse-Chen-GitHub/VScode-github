@@ -7,10 +7,11 @@
 
 Using winget tool
 Install winget tool if you don't already have it, then type this command in command prompt or Powershell.
+
 `winget install --id Git.Git -e --source winget`
 
-- 參考網站：https://git-scm.com/download/win
+- 參考網站：[Git Download](https://git-scm.com/download/win)
 
 ## 操作方式
-- 參考網站：https://ithelp.ithome.com.tw/articles/10294118
+- 參考網站：[Day 06：Git 學習筆記](https://ithelp.ithome.com.tw/articles/10294118)
 
