@@ -38,10 +38,6 @@
 
    - 參考資料：[VS Code 與 Github 同步](https://jimmylab.wordpress.com/gp1015/git-github/vscode-github/)
 
-   <a href="https://jimmylab.wordpress.com/gp1015/git-github/vscode-github/" target="_blank"> VS Code 與 Github 同步</a>
-
-   <a href="https://www.google.com" target="_blank">Google 搜尋</a>
-
 
 ## 常用指令
    - 取得 Git 指令列工具版本
