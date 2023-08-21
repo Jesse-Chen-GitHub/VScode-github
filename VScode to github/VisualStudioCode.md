@@ -160,3 +160,24 @@
 
 6. VS Code 的 Jupyter Notebook 比較進階。如果您從未接觸過 Jupyter Notebook 或 Python，可以考慮先跟從免安裝的 Google Colab Notebook（也是 Jupyter Notebook 的化身）的以下教學，學會 Python 基本技能。
         [Google Colab Notebook](https://colab.research.google.com/)
+
+### CodeGeex
+
+可以產生 Python 3.11.4 版本的代碼。以下是生成的一个简单的 Python 3.11.4 代碼示例：
+
+#### 文件名：example_3.11.4.py
+```py
+def add(a, b):
+   return a + b
+
+result = add(1, 1)
+print(result)
+```
+要生成此代碼，请运行以下命令：
+
+```r
+python3.11.4 -m venv myenv
+source myenv/bin/activate
+python example_3.11.4.py
+```
+这将创建一个名为myenv的新虚拟环境，激活它，并运行example_3.11.4.py文件。
