@@ -20,7 +20,7 @@ def function_name(parameters):
 ### 方法 1
 下面是一個簡單的函式，它接受兩個數字並返回它們的和：
 
-```py{.line-numbers}
+```py {.line-numbers}
 def add(a, b):
     return a + b
 
