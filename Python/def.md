@@ -18,7 +18,7 @@ def function_name(parameters):
 
 
 ### 方法 1
-下面是一個簡單的函式，它接受兩個數字並返回它們的和：
+下面的程式碼定義了一個名為 add() 的函式 (該函式將兩個數字相加)，它接受兩個數字並返回它們的和：
 
 ```py {.line-numbers}
 def add(a, b):
