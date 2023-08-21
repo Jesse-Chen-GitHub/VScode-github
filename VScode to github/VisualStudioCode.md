@@ -25,7 +25,7 @@
 
 ### 1. 建立虛擬環境與安裝 Library
 
-   - 參考網站：<https://pythonviz.com/basic/visual-studio-code-virtual-environment-setup/>
+   - 參考網站：[設定虛擬環境 Virtual Env](https://pythonviz.com/basic/visual-studio-code-virtual-environment-setup/)
 
 1. 我們首先開啟 VS Code，並按一下 Cmd + Shift + P 開啟 Command Palette。輸入「terminal」，並選取「Python: Create Terminal」的選項。
    - 如在開啟的專案中，選擇「Python: Create Terminal」會進入venv 狀態
@@ -49,7 +49,7 @@
 
 ### 3. 版面介紹、管理 Python 專案和多個 .py
 
-- 參考網站：<https://pythonviz.com/basic/visual-studio-code-introduction-manage-python-script/>
+- 參考網站：[管理 Python 專案和多個 .py](https://pythonviz.com/basic/visual-studio-code-introduction-manage-python-script/)
 
 1. 在 Python Terminal 運行 main.py
         
@@ -72,7 +72,7 @@
 
 ### 4. 讓 pip 安裝和管理 Python Libraries，結合虛擬環境
 
-   - 參考網站：<https://pythonviz.com/basic/pip-installer-visual-studio-code-usage/>
+   - 參考網站：[讓 pip 安裝和管理 Python Libraries，結合虛擬環境](https://pythonviz.com/basic/pip-installer-visual-studio-code-usage/)
 
 1. 在 VS Code 的 Python Terminal，使用 pip 安裝新 library 的語法是：
     
@@ -156,7 +156,7 @@
 ### 草稿
 5. VSCode 5/5: Jupyter Notebook 互動編程？實在太方便了
 
-   - 參考網站：<https://pythonviz.com/colab-jupyter/visual-studio-code-jupyter-notebook-integration/>
+   - 參考網站：[Jupyter Notebook 互動編程](https://pythonviz.com/colab-jupyter/visual-studio-code-jupyter-notebook-integration/)
 
 6. VS Code 的 Jupyter Notebook 比較進階。如果您從未接觸過 Jupyter Notebook 或 Python，可以考慮先跟從免安裝的 Google Colab Notebook（也是 Jupyter Notebook 的化身）的以下教學，學會 Python 基本技能。
-        Google Colab Notebook: <https://colab.research.google.com/>
+        [Google Colab Notebook](https://colab.research.google.com/)

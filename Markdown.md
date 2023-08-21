@@ -20,4 +20,4 @@
 
     > Text that is a quote
     
-- 參考資料：[基本撰寫和格式語法] <https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text\>
+- 參考資料：[基本撰寫和格式語法]<https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text\>
