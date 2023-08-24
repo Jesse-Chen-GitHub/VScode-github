@@ -38,7 +38,7 @@
   
       `python -m venv .venv`
 
-   - 啟用虛擬環境，下次啟動時在目錄 (移至.projects_py 目錄下，因要執行測試的 py 放在此) 
+   - 啟用虛擬環境，當下次啟動時在此目錄下指令。 (移至.projects_py 目錄下，因要執行測試的 py 放在此)
 
       `.\.venv\Scripts\activate`
 
@@ -46,11 +46,11 @@
 
       `deactivate`
 
-3. 在 Terminal 輸入以下指令，在虛擬環境安裝 pandas 和  plotly：
+1. 在 Terminal 輸入以下指令，在虛擬環境安裝 pandas 和  plotly：
         
         `pip install pandas plotly`
 
-4. 這指令讓我們可以列舉全部在這個虛擬環境下已經安裝的 Python libraries
+2. 這指令讓我們可以列舉全部在這個虛擬環境下已經安裝的 Python libraries
        
        `pip freeze`
 
