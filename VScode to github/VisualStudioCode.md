@@ -36,15 +36,15 @@
 2. 建立虛擬環境
     1) 目錄名稱 .venv (移至.projects_py 目錄下) 指令如下：
   
-      `python -m venv .venv`
+        `python -m venv .venv`
 
     2) 啟用虛擬環境，當下次啟動時在此目錄下指令。 (移至.projects_py 目錄下，因要執行測試的 py 放在此)
 
-      `.\.venv\Scripts\activate`
+        `.\.venv\Scripts\activate`
 
     3) 停用虛擬環境
 
-      `deactivate`
+        `deactivate`
 
 3. 在 Terminal 輸入以下指令，在虛擬環境安裝 pandas 和  plotly：
         
