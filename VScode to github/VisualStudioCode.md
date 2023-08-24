@@ -33,11 +33,24 @@
 
     ![Alt text](./images/image.png)
 
-2. 在 Terminal 輸入以下指令，在虛擬環境安裝 pandas 和  plotly：
+2. 建立虛擬環境
+   - 目錄名稱 .venv (移至.projects_py 目錄下) 指令如下：
+  
+      `python -m venv .venv`
+
+   - 啟用虛擬環境，下次啟動時在目錄 (移至.projects_py 目錄下，因要執行測試的 py 放在此) 
+
+      `.\.venv\Scripts\activate`
+
+   - 停用虛擬環境
+
+      `deactivate`
+
+3. 在 Terminal 輸入以下指令，在虛擬環境安裝 pandas 和  plotly：
         
         `pip install pandas plotly`
 
-3. 這指令讓我們可以列舉全部在這個虛擬環境下已經安裝的 Python libraries
+4. 這指令讓我們可以列舉全部在這個虛擬環境下已經安裝的 Python libraries
        
        `pip freeze`
 
