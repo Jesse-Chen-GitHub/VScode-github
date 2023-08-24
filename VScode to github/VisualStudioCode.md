@@ -46,11 +46,11 @@
 
       `deactivate`
 
-1. 在 Terminal 輸入以下指令，在虛擬環境安裝 pandas 和  plotly：
+3. 在 Terminal 輸入以下指令，在虛擬環境安裝 pandas 和  plotly：
         
         `pip install pandas plotly`
 
-2. 這指令讓我們可以列舉全部在這個虛擬環境下已經安裝的 Python libraries
+4. 這指令讓我們可以列舉全部在這個虛擬環境下已經安裝的 Python libraries
        
        `pip freeze`
 
