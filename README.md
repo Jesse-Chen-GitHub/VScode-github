@@ -88,3 +88,33 @@
 3. 按下 Enter 鍵。
    
    此命令將清除 `gui.recentrepo=C:/Users/chen/z_Notes/z_MD` 變數，並在下次啟動 Git 時只會列出其他最近使用的倉庫。
+
+## 新增一個版本
+這裡簡化流程：
+
+* 在庫目錄，資料夾內執行以下幾個步驟即可：
+
+```r {.line-numbers}
+git add .
+git commit -m "up-data"    # "你自己的提示信息"
+git push -u origin
+```
+
+### 簡化流程與說明
+1. 開新資料夾：`git init` 建立數據庫
+   新建本地數據庫（Local Repository 只需要新建一次就好）
+
+2. 加入索引：`git add .`
+   將檔案移入索引中，當檔案有更動時執行。
+
+3. 提交版本：`git commit -m "up-data"`
+   將索引內的檔案提交至本地數據庫，"提示信息或變更原因"
+
+4. 將本地分支的提交推送到遠程倉庫：`git push -u origin`
+
+5. 觀看歷史紀錄：git log，並會看到一個版本紀錄
+
+6. 參考資料：
+   1) [git add、git commit - 提交版本](https://w3c.hexschool.com/git/7b64aa34)
+   2) [git push - 推送](https://w3c.hexschool.com/git/3a1a8767)
+   3) [git pull - 下載同步更新](https://w3c.hexschool.com/git/3a1a8767)
