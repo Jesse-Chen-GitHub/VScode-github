@@ -92,6 +92,7 @@
 ## 新增一個版本
 這裡簡化流程：
 
+### Logseq 同步方法
 * 在庫目錄，資料夾內執行以下幾個步驟即可：
 
 ```r {.line-numbers}
@@ -112,9 +113,12 @@ git push -u origin
 
 4. 將本地分支的提交推送到遠程倉庫：`git push -u origin`
 
-5. 觀看歷史紀錄：git log，並會看到一個版本紀錄
+5. 觀看歷史紀錄：`git log`，並會看到一個版本紀錄。
 
-6. 參考資料：
+6. `git pull` 命令用於從遠程倉庫更新本地倉庫。
+   此命令會先從遠程倉庫獲取最新的提交，然後將這些提交合併到本地分支。
+
+7. 參考資料：
    1) [git add、git commit - 提交版本](https://w3c.hexschool.com/git/7b64aa34)
    2) [git push - 推送](https://w3c.hexschool.com/git/3a1a8767)
    3) [git pull - 下載同步更新](https://w3c.hexschool.com/git/3a1a8767)
