@@ -96,7 +96,7 @@
 
 ```r {.line-numbers}
 git add .
-git commit -m "up-data"    # "你自己的提示信息"
+git commit -m "up-data"    # "更新的提示信息"
 git push -u origin
 ```
 
