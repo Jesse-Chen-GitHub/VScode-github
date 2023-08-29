@@ -18,6 +18,7 @@
 5. Python
 6. Python extension for Visual Studio Code
 7. WSL (Home install)
+8. [CodeGeex](#codegeex)
 
 ---
 
@@ -32,7 +33,7 @@
    ```r
    python -m venv .venv
    ```
-2. 啟用虛擬環境
+2. 啟用虛擬環境，注意目錄結構所在位置。
    
    ```r
    .\.venv\Scripts\activate
@@ -47,14 +48,14 @@
     獲取在這個虛擬環境已經安裝的 Python library：
 
     ```r
-    pip freeze
+    pip freeze > requirements.txt
     ``` 
 
-5. 我們會使用到以下的代碼，在 root directory （即「vscode-example」）生成一個「requirements.txt」的檔案：
-    
-    ```r
-    pip freeze > requirements.txt
-    ```
+5. 使用以下指令，從 requirements.txt 還原我們的 Python libraries 安裝：
+   
+   ```r
+   pip install -r requirements.txt
+   ```
 
 **建立說明**
 1. 我們首先開啟 VS Code，並按一下 Cmd + Shift + P 開啟 Command Palette。輸入「terminal」，並選取「Python: Create Terminal」的選項。
@@ -185,17 +186,15 @@
 
     首先我們必須澄清：這個方法未必是最佳方案（best practice）。由於我們移除單一的 Python library 不會同時移除它的 dependencies，因此如果我們的目的是清理虛擬環境，這個方法並不奏效。
 
-    以上圖為例，我們只指名移除 pandas 時，在橘色框裡 pandas 的 dependencies（numpy、python-dateutil、pytz）沒有同時被移除。
-
     良好的習慣是在安裝新的 Python library 前，先備份虛擬環境（即 pip freeze > requirements.txt），才安裝 Python library。那麼我們想要移除一些 Library 時，便可以透過上面提及的重設虛擬環境、匯入 requirements.txt 的方法解決我們的問題。
 
 8. 刪除所有的 Python Library
     最快捷的方法當然是直接刪除 .venv 的檔案夾，重新設定新的 .venv （虛擬環境），那麼您就會有一個新的、空白的虛擬環境可以使用：
 
     ```r {.line-numbers}
-    rm -rf .venv
-    virtualenv .venv
-    pip freeze
+    python -m venv .venv
+    .\.venv\Scripts\activate    # 注意目錄結構所在位置
+    pip freeze > requirements.txt
     ```
 
     從最後的 pip freeze 輸出為空白可見，我們使用這個方法就可以徹底清除所有已安裝的 Library，重新開始（fresh start）。
