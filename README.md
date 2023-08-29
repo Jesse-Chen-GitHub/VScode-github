@@ -101,6 +101,13 @@ git commit -m "up-data"    # "更新的提示信息"
 git push -u origin
 ```
 
+* 下載同步更新
+```r
+git pull
+```
+
+
+
 ### 簡化流程與說明
 1. 開新資料夾：`git init` 建立數據庫
    新建本地數據庫（Local Repository 只需要新建一次就好）
