@@ -21,12 +21,42 @@
 
 ---
 
-## Python
+# Python
 
-### 1. 建立虛擬環境與安裝 Library
+## 1. 建立虛擬環境與安裝 Library
 
-   - 參考網站：[設定虛擬環境 Virtual Env](https://pythonviz.com/basic/visual-studio-code-virtual-environment-setup/)
+**常用指令**
 
+1. 建立虛擬環境
+   ```r
+   python -m venv .venv
+   ```
+2. 啟用虛擬環境
+   ```r
+   .\.venv\Scripts\activate
+   ```
+3. 停用虛擬環境
+   ```r
+   deactivate
+   ```
+
+4. pip 功能 freeze 匯入和輸出 library 列表，使用 pip freeze 輸出 requirements.txt
+    獲取在這個虛擬環境已經安裝的 Python library：
+
+    ```r
+    pip freeze
+    ``` 
+
+5. 我們會使用到以下的代碼，在 root directory （即「vscode-example」）生成一個「requirements.txt」的檔案：
+     
+     `pip freeze > requirements.txt`
+
+
+
+
+
+
+**建立說明**
 1. 我們首先開啟 VS Code，並按一下 Cmd + Shift + P 開啟 Command Palette。輸入「terminal」，並選取「Python: Create Terminal」的選項。
    - 如在開啟的專案中，選擇「Python: Create Terminal」會進入venv 狀態
    - 在 Terminal 處輸入 `deactivate` 可停用虛擬環境
@@ -54,13 +84,18 @@
        
        `pip freeze`
 
-### 2. 重置或移除虛擬環境
+   - 參考網站：[設定虛擬環境 Virtual Env](https://pythonviz.com/basic/visual-studio-code-virtual-environment-setup/)
+
+
+## 2. 重置或移除虛擬環境
 
 1. 其實我們只要直接移除虛擬環境的檔案夾（例如 .venv）便可以。我們在 Python Terminal 輸入以下指令：
-        
-        `rm -rf .venv`
+   
+   ```r
+   rm -rf .venv
+   ```
 
-### 3. 版面介紹、管理 Python 專案和多個 .py
+## 3. 版面介紹、管理 Python 專案和多個 .py
 
 - 參考網站：[管理 Python 專案和多個 .py](https://pythonviz.com/basic/visual-studio-code-introduction-manage-python-script/)
 
@@ -83,7 +118,7 @@
 
     這對於我們寫出測試代碼（test script）有很大的幫助。
 
-### 4. 讓 pip 安裝和管理 Python Libraries，結合虛擬環境
+## 4. 讓 pip 安裝和管理 Python Libraries，結合虛擬環境
 
    - 參考網站：[讓 pip 安裝和管理 Python Libraries，結合虛擬環境](https://pythonviz.com/basic/pip-installer-visual-studio-code-usage/)
 
@@ -166,7 +201,7 @@
 
     從最後的 pip freeze 輸出為空白可見，我們使用這個方法就可以徹底清除所有已安裝的 Library，重新開始（fresh start）。
 
-### 草稿
+## 草稿
 5. VSCode 5/5: Jupyter Notebook 互動編程？實在太方便了
 
    - 參考網站：[Jupyter Notebook 互動編程](https://pythonviz.com/colab-jupyter/visual-studio-code-jupyter-notebook-integration/)
@@ -174,11 +209,11 @@
 6. VS Code 的 Jupyter Notebook 比較進階。如果您從未接觸過 Jupyter Notebook 或 Python，可以考慮先跟從免安裝的 Google Colab Notebook（也是 Jupyter Notebook 的化身）的以下教學，學會 Python 基本技能。
         [Google Colab Notebook](https://colab.research.google.com/)
 
-### CodeGeex
+# CodeGeex
 
 可以產生 Python 3.11.4 版本的代碼。以下是生成的一个简单的 Python 3.11.4 代碼示例：
 
-#### 文件名：example_3.11.4.py
+## 文件名：example_3.11.4.py
 ```py
 def add(a, b):
    return a + b
