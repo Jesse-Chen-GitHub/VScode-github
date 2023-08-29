@@ -134,8 +134,7 @@
 
     因此，我們縱然指示 pip 安裝 2 個 libraries，但實際上 pip 卻安裝了 7 個 library，即是 plotly 和 pandas 有 5 個 library 作它們的 dependencies 。
 
-3. pip 功能 2：freeze、匯入和輸出 library 列表
-    使用 pip freeze 輸出 requirements.txt
+3. pip 功能 2：freeze、匯入和輸出 library 列表，使用 pip freeze 輸出 requirements.txt
     我們可以在 Python Terminal 輸入以下指令，獲取在這個虛擬環境已經安裝的 Python library：
      
      `pip freeze`
@@ -158,7 +157,7 @@
      `pip install -r requirements.txt`
 
 6. pip 功能 3：更新已安裝的 library
-    **因為更新後的 library 可能出現兼容問題，進行以下操作前，請先使用上面提及的方法使用 requirements.txt 備份虛擬環境的資料。**
+   **因為更新後的 library 可能出現兼容問題，進行以下操作前，請先使用上面提及的方法使用 requirements.txt 備份虛擬環境的資料。**
 
     如果我們只想更新一個 library，那麼語法十分簡單：
     
