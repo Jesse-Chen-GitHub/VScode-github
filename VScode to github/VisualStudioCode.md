@@ -28,14 +28,17 @@
 **常用指令**
 
 1. 建立虛擬環境
+   
    ```r
    python -m venv .venv
    ```
 2. 啟用虛擬環境
+   
    ```r
    .\.venv\Scripts\activate
    ```
 3. 停用虛擬環境
+   
    ```r
    deactivate
    ```
@@ -48,13 +51,10 @@
     ``` 
 
 5. 我們會使用到以下的代碼，在 root directory （即「vscode-example」）生成一個「requirements.txt」的檔案：
-     
-     `pip freeze > requirements.txt`
-
-
-
-
-
+    
+    ```r
+    pip freeze > requirements.txt
+    ```
 
 **建立說明**
 1. 我們首先開啟 VS Code，並按一下 Cmd + Shift + P 開啟 Command Palette。輸入「terminal」，並選取「Python: Create Terminal」的選項。
